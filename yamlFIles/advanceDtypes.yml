@@ -1,0 +1,8 @@
+student: !!seq
+ - marks
+ - name
+ - roll no
+
+# lists can also be like this 
+cities: [a, b, c]
+

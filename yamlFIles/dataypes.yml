@@ -1,0 +1,13 @@
+name: Bhavye Jain
+bio: "This is my bio/resume"
+
+# It can detect the datatype
+num: 490
+floatmarks: 45.9910
+boolVal: No
+
+# !!datatype -> to explicitly tell datatype
+zero: !!int 0
+number: !!int 981
+floatvalue: !!float 89.332
+gaps are also allowed : It is also valid

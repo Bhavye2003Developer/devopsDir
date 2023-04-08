@@ -1,0 +1,19 @@
+"key": "value"
+1: "Bhavye"
+"first" : "It is a key value pair"
+bhavye : He is a good boy
+
+---
+# list
+- Apple
+- banana
+- mango
+
+---
+
+cities : 
+  - new delhi
+  - goa
+  - gujrat
+
+...

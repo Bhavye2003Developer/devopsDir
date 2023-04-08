@@ -1,0 +1,13 @@
+---
+school:
+  - name: MSIT
+  - principal: Bhavye
+  - students:
+      - student1:
+          - roll No: 1
+          - name: Neo
+          - marks: 95
+      - student2:
+          - roll No: 2
+          - name: Petya
+          - marks: 90
