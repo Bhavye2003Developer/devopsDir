@@ -23,7 +23,7 @@ docker logs id -> shows output of command of that container.
 docker system prune -> deletes every container as well as it's resources
 docker container prune -> deletes all containers only.
 docker run -it image sh -> opens shell.
-docker exec -it id command -> run multiple commands
+docker exec -it id command -> run multiple commands in running container.(another terminal)
 -it -> interactive terminal flag.
 
 
@@ -41,3 +41,5 @@ flow
 
 docker build -t(tagging name) ide .(dockerfile) -> creates image
 docker run ide
+
+docker run -p localport:appPort(inside container) image_name -> port forwarding -> It forward local port to appport in our container's network ports.
