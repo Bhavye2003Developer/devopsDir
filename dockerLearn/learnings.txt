@@ -38,3 +38,6 @@ flow
 	run some commands to install additional packages, programs
 	specify command to be run at startup
 
+
+docker build -t(tagging name) ide .(dockerfile) -> creates image
+docker run ide
